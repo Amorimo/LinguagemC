@@ -2,7 +2,7 @@
 int main(){
     int placa;
     printf("Digite o Número final do seu veiculo e tecle Enter\n");
-    scanf("%d,&placa");
+    scanf("%d",&placa);
 
     if (placa==1 || placa==2)
     {
@@ -24,7 +24,7 @@ int main(){
     {
         printf("Este veículo não pode circular na Sexta-Feira");
     }
-    
+
     else{
         printf("Número de placa inválido");
     }
